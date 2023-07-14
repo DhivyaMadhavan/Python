@@ -1,0 +1,9 @@
+#number check whether its odd or even.
+#In case of a decimal, Round off to nearest integer and then find the output. Incase the input is zero, print "Zero"
+a = float(input())
+if round(a) %2 == 0 and a!= 0:
+    print("Even")
+elif a == 0:
+  print("Zero")     
+else:
+  print("Odd")
