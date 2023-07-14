@@ -1,0 +1,3 @@
+#Get a string.Remove all the whitespaces and find the length of the string
+name = input()
+print(len(name.replace(" ","")))
