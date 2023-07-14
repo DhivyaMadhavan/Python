@@ -1,0 +1,6 @@
+#get an integer number as input and print the sum of the digits.
+A = int(input())
+sum = 0
+for i in str(A):
+  sum = sum + int(i)
+print(sum)
