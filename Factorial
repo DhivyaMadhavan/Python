@@ -1,0 +1,4 @@
+#get a number and find its factorial
+import math
+num = int(input())
+print(math.factorial(num))
