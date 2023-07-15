@@ -1,0 +1,9 @@
+#get numbera A and B. If C = A + B. Find C.Round off the output to a single decimal place.
+A = float(input())
+B = float(input())
+C = A + B
+if(float.is_integer(C)):
+  C = int(C)
+  print(C)
+else:
+  print(round(C,1))
