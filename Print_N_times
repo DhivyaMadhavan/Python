@@ -1,0 +1,3 @@
+#get 2 integers A and N. Print the integer A, N times in separate line.
+x,y = [int(x) for x in input().split()]
+print((str(x)+ "\n") * y)
