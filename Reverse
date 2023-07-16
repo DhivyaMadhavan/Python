@@ -1,0 +1,5 @@
+#reverse the queue elements and print it.
+N = int(input())
+l = input().split()
+reverse = l[::-1]
+print(*reverse)
