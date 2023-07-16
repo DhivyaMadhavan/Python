@@ -1,0 +1,8 @@
+#whether the two given strings are anagrams.If yes print 1 and 0 if not an anagram
+def anagram(name1,name2):
+  if(sorted(name1) == sorted(name2)):
+    print(1)
+  else:
+    print(0)
+
+anagram("shore","horse")  
