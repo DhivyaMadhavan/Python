@@ -1,10 +1,8 @@
-
 pip install google-api-python-client
 import streamlit as st
 import time
 from datetime import datetime
 from googleapiclient.discovery import build
-from pprint import pprint
 import pandas as pd
 import pymongo
 import psycopg2
